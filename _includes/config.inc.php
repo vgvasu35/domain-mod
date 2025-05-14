@@ -24,7 +24,7 @@
 $web_root = '/dm'; // don't include trailing slash (if you're installing in the root just leave this blank)
 
 // Database Settings
-$dbhostname = 'n0w0c8s0g88s8gk08kwo0oss';
+$dbhostname = 'mk4scwko84so4w08gkcck08k';
 $dbname = 'default';
-$dbusername = 'mysql';
-$dbpassword = 'QXtZUrOC72wkE7slgJ4p7sO2XTzw67saKa7hhQYOMPvummxYcvYRDP4EumQMPUcZ';
+$dbusername = 'mariadb';
+$dbpassword = 'AtRFFecIqqJGyiYu6mDeZJSCSk2LqL20p7qYYWaK5m555NXk7GVcVDzVPRSsjgEw';
