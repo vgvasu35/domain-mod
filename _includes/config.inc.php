@@ -21,7 +21,7 @@
 ?>
 <?php
 // Path Settings
-$web_root = '/dm'; // don't include trailing slash (if you're installing in the root just leave this blank)
+$web_root = ''; // don't include trailing slash (if you're installing in the root just leave this blank)
 
 // Database Settings
 $dbhostname = 'mk4scwko84so4w08gkcck08k';
