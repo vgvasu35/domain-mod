@@ -24,7 +24,7 @@
 $web_root = ''; // don't include trailing slash (if you're installing in the root just leave this blank)
 
 // Database Settings
-$dbhostname = 'mk4scwko84so4w08gkcck08k';
-$dbname = 'default';
-$dbusername = 'mariadb';
-$dbpassword = 'AtRFFecIqqJGyiYu6mDeZJSCSk2LqL20p7qYYWaK5m555NXk7GVcVDzVPRSsjgEw';
+$dbhostname = getenv('DB_HOSTNAME') ?: 'localhost';
+$dbname = getenv('DB_NAME') ?: 'default';
+$dbusername = getenv('DB_USERNAME') ?: 'root';
+$dbpassword = getenv('DB_PASSWORD') ?: '';
