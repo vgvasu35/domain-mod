@@ -1,7 +1,7 @@
 # nixpacks.toml
-[build]
-  # Custom build commands
-  custom_build_commands = [
-    "chmod -R 777 /var/www/html/domainmod/temp",  # Recursively change permissions for the temp folder
-    "chmod -R 777 /var/www/html/domainmod/docs"   # Recursively change permissions for the docs folder
-  ]
+
+[phases.install]
+cmds = [
+  "mkdir -p /app/temp /app/docs",
+  "chmod -R 777 /app/temp /app/docs"
+]
