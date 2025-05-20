@@ -3,5 +3,7 @@
 [phases.build]
 cmds = [
   "mkdir -p /app/temp",
+  "chmod 777 /var/www/html/domainmod/temp",
+  "chmod 777 -R /var/www/html/domainmod/docs",
   "chmod -R 777 /app/temp /app/docs"
 ]
