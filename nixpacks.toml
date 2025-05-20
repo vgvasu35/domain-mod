@@ -2,6 +2,6 @@
 
 [phases.install]
 cmds = [
-  "mkdir -p /app/temp /app/docs",
+  "mkdir -p /app/temp",
   "chmod -R 777 /app/temp /app/docs"
 ]
